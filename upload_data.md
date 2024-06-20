@@ -11,7 +11,7 @@ IEE please upload the files to `path_s3=s3://windstore-weather-data/iee/`.
 Use the option `--profile <profile_name>` to set up access keys for the accounts.
 See https://docs.aws.amazon.com/cli/latest/userguide/cli-authentication-user.html for more details.
 
-The profile will be saved in your `~/.aws` folder. In the `credentials` file are the AWS Access Key ID  and AWS Secret Access Key. The rest of the configurations are in the `config` file. 
+The profile will be saved in your `~/.aws` folder in two files `config` and `credentials`. The former contains the profile, the latter the related  AWS Access Key ID and AWS Secret Access Key. `config` is 
 
 ```
 [default]
