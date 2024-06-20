@@ -23,8 +23,7 @@ region = eu-central-1
 output = json
 ```
 
-
-When adding this new profile production, make sure to also add new credentials in ~/.aws/credentials. (you can also use the same key ID and secret key for both profiles)
+When adding this new profile `<profile_name>`, make sure to also add new `credentials` in `~/.aws/credentials` (keys may agree).
 
 ```
 [default]
